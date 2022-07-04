@@ -8,8 +8,15 @@ public class Percussio extends Instrument {
 		}
 		
 		
-		public void tocar() {
+		static {
+			
 			System.out.println ("Esta sonant un instrument de percussio");
+		}
+		
+		
+		
+		public void tocar() {
+			
 			
 			
 		}

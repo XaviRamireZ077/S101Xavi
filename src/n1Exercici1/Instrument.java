@@ -2,10 +2,12 @@ package n1Exercici1;
 
 public abstract class Instrument {
 
-	private static String nom;
-	private static int preu;
+	private String nom;
+	private int preu;
 	
-   
+    static {
+    	
+    }
 	public Instrument(String nom, int preu) {
 		this.nom = nom;
 		this.preu = preu;
@@ -28,8 +30,7 @@ public abstract class Instrument {
 		this.preu = preu;
 	}
 	
-	 static {
-	 }  
+	 
 	public abstract void tocar();
 	
 	 
